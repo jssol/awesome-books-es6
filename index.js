@@ -5,6 +5,16 @@ const bookList = document.querySelector('.book_list');
 const addBtn = document.querySelector('.add_book_btn');
 const titleInput = document.querySelector('.title');
 const authorInput = document.querySelector('.author');
+let books = [
+  {
+    author: 'ipsum',
+    title: 'Testyy',
+  },
+  {
+    author: 'lorem',
+    title: 'Testeroo',
+  },
+];
 
 setTime();
 setInterval(setTime, 1000);

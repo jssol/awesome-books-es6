@@ -1,14 +1,3 @@
-let books = [
-  {
-    author: 'ipsum',
-    title: 'Testyy',
-  },
-  {
-    author: 'lorem',
-    title: 'Testeroo',
-  },
-];
-
 const setLocalStore = (books) => {
   localStorage.setItem('bookStore', JSON.stringify(books));
 };
