@@ -134,6 +134,7 @@ body {
   box-shadow: 3px 3px 0 0 #000;
   font-family: var(--ff);
   font-weight: 600;
+  cursor: pointer;
 }
 
 .add_book {
