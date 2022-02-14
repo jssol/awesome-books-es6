@@ -7,6 +7,7 @@ const titleInput = document.querySelector('.title');
 const authorInput = document.querySelector('.author');
 const timeDisplay = document.querySelector('.time-display');
 
+setTime();
 setInterval(setTime, 1000);
 
 addBtn.addEventListener('click', () => {

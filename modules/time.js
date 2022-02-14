@@ -22,5 +22,3 @@ export default () => {
   timeDisplay.textContent = '';
   timeDisplay.textContent = `${time}`;
 };
-
-setTime();
