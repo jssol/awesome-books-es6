@@ -198,7 +198,7 @@ body {
 }
 
 .contacts {
-	width: 90%;
+  width: 90%;
 }
 
 .footer {
@@ -227,12 +227,14 @@ body {
 
 @media only screen and (min-width: 540px) {
   .time-display {
-  top: 4em;
+    top: 4em;
   }
+
   .contact_details,
   .contacts {
     width: auto;
   }
+
   .book_list::-webkit-scrollbar {
     width: 12px;
   }
