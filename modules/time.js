@@ -1,3 +1,5 @@
+const timeDisplay = document.querySelector('.time-display');
+
 export default () => {
   const date = new Date();
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

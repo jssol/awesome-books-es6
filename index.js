@@ -5,7 +5,6 @@ const bookList = document.querySelector('.book_list');
 const addBtn = document.querySelector('.add_book_btn');
 const titleInput = document.querySelector('.title');
 const authorInput = document.querySelector('.author');
-const timeDisplay = document.querySelector('.time-display');
 
 setTime();
 setInterval(setTime, 1000);
