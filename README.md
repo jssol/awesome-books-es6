@@ -6,12 +6,13 @@
 
 ## Screenshot
 
-![App screenshot](./screenshot.png)
+![app-screenshot](./screenshot.png)
 
 ## Built With
 
 - HTML/CSS, Javascript
-- Git/Github, CLI
+- Git/Github, CLI, npm
+- Luxon.js
 
 ## Live Demo
 
