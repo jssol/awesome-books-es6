@@ -1,4 +1,4 @@
-import { DateTime } from 'luxon';
+import { DateTime } from '../modules/luxon.js';
 
 const timeDisplay = document.querySelector('.time-display');
 
