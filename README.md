@@ -22,8 +22,6 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
 ### Setup
 
 To get the project up and running you need a browser.
@@ -42,7 +40,7 @@ This project helps you store your favorite books right in your navigator.
 For:
 
 - Eslint: run `npx eslint .`
-- Eslint: run `npx hint .`
+- Webhint: run `npx hint .`
 - Stylelint: run `npx stylelint "**/*.{css.scss}"`
 
 ## Author
