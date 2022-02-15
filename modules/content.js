@@ -26,16 +26,16 @@ class Book {
     ];
   }
 
-  setLocalStore() {
+  setLocalStore = () => {
     localStorage.setItem('bookStore', JSON.stringify(this.books));
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     this.books.splice(index, 1);
     this.setLocalStore(this.books);
   }
 
-  addBook(title, author) {
+  addBook = (title, author) => {
     const book = {
       author,
       title,
@@ -45,7 +45,7 @@ class Book {
     this.setLocalStore(this.books);
   }
 
-  displayBooks() {
+  displayBooks = () => {
     bookList.innerHTML = '';
     this.books.forEach((book, index) => {
       const li = document.createElement('li');
